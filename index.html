@@ -2,630 +2,802 @@
 <html>
 <head>
     <meta charset="UTF-8">
-    
-    <title>Offers - ERROR | Your TopUp Center </title>
-    
+    <title>Offers - Your TopUp Center | FF Diamond Store BD </title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="আপনার বিশ্বস্ত অনলাইন ডিজিটাল গেম স্টোর Your TopUp Center  - এ আপনার প্রিয় গেম ক্রেডিট টপ-আপ করুন । ">
+    <meta name="keywords" content="Your TopUp Center, #ytc24, topup, free fire, gaming,  seller, game offers, discounts, top-up deals, free fire offers, gaming discounts, special offers, Your TopUp Center, top-up deals, #ytc24, cheap game credits">
+    <meta name="author" content="Ali Hosen">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="application-name" content="Your TopUp Center">
+    <meta property="og:title" content="Exclusive Game Offers - Top Discounts & Deals | Your TopUp Center">
+    <meta property="og:image" content="https://i.postimg.cc/Qx3wdSvM/Adobe-Express-20231213-2151070-1.png">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="icon" href="https://i.postimg.cc/mD3qYHH4/Picsart-24-01-20-22-35-57-863.png" type="image/png">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
     
-    <link rel="stylesheet" href="css/style.css">
+   <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Anek+Bangla:wght@100..800&family=Cabin:ital,wght@0,400..700;1,400..700&family=Edu+AU+VIC+WA+NT+Hand:wght@400..700&family=Merriweather+Sans:ital,wght@0,300..800;1,300..800&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
     
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-		<link href="https://fonts.googleapis.com/css2?family=Encode+Sans+Condensed:wght@200;400;600;700&family=Kanit:wght@100;200;400;600;800&family=REM:wght@400;600&display=swap" rel="stylesheet">
-		
-		 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
-		 
-		
-
+    <link rel="stylesheet" href="style.css">
+    
+    
+    
+    <!---উপরের কিছু Edit করা লাগবে না---->
+    
     <style>
-    /* Add all your styles here */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: "Cabin", sans-serif;
+        }
+        
+        
+    
+    
+    /* Footer */
 
-*{
-  margin: 0;
-  padding: 0;
-  font-family: 'Encode Sans Condensed', sans-serif;
-  box-sizing: border-box;
+
+       .mfooter {
+            display: flex;
+            flex-direction: column;
+            min-height: 100%;
+            background-color: #f4f4f4;
+        }
+
+        footer {
+        background: radial-gradient(circle, #000000, #0f0f1f);
+            color: white;
+            position: relative;
+            padding: 50px 0;
+            overflow: hidden;
+        }
+
+        .footer-container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+            text-align: center;
+            animation: fadeIn 1.5s ease-in-out;
+        }
+
+        .footer-section {
+            width: 100%;
+            max-width: 25%;
+            padding: 20px;
+        }
+
+        
+        .company-info {
+            text-align: center;
+            margin-bottom: 30px;
+        }
+
+        .company-info img {
+            max-width: 150px;
+            margin-bottom: 10px;
+            border-radius: 50%;
+            box-shadow: 0 0 30px #26ff00;
+            border: 2px solid #26ff00;
+        }
+
+        .company-info h1 {
+            font-size: 24px;
+            text-transform: uppercase;
+            color: #fff;
+            font-family: "Merriweather Sans", sans-serif;
+        }
+
+        .footer-section h2 {
+            margin-bottom: 20px;
+            font-size: 20px;
+            text-transform: uppercase;
+            position: relative;
+            animation: floatIn 1.2s ease-in-out;
+        }
+
+        .footer-section p,
+        .footer-section ul {
+            font-size: 14px;
+            line-height: 1.6;
+            animation: fadeInUp 1.2s ease-in-out;
+        }
+
+        .footer-section ul {
+            list-style: none;
+        }
+
+        .footer-section ul li {
+            margin-bottom: 10px;
+        }
+
+        .footer-section ul li a {
+            text-decoration: none;
+            color: #fff;
+            transition: color 0.3s ease;
+        }
+
+        .footer-section ul li a:hover {
+            color: #00f0ff;
+        }
+
+        .social-icons {
+            display: flex;
+            justify-content: center;
+            gap: 15px;
+        }
+
+        .social-icons li {
+            list-style: none;
+        }
+
+        .social-icons li a {
+            color: white;
+            font-size: 22px;
+            transition: transform 0.3s ease;
+        }
+
+        .social-icons li a:hover {
+            transform: scale(1.2);
+        }
+
+        .footer-bottom {
+            text-align: center;
+            padding: 20px;
+            font-size: 14px;
+            background: #1B2735;
+            animation: fadeInUp 2s ease-in-out;
+            font-family: "Edu AU VIC WA NT Hand", cursive;
+        }
+
+        
+        @media screen and (max-width: 768px) {
+            .footer-section {
+                max-width: 50%;
+            }
+        }
+
+        @media screen and (max-width: 576px) {
+            .footer-section {
+                max-width: 100%;
+            }
+        }
+
+        @keyframes fadeIn {
+            from {
+                opacity: 0;
+            }
+            to {
+                opacity: 1;
+            }
+        }
+
+        @keyframes fadeInUp {
+            from {
+                opacity: 0;
+                transform: translateY(30px);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+
+        @keyframes floatIn {
+            0% {
+                transform: translateY(100%);
+            }
+            100% {
+                transform: translateY(0);
+            }
+        }
+
+        
+        @keyframes colorShift {
+            0% {
+                color: #fff;
+            }
+            50% {
+                color: #26ff00;
+                text-shadow: 0 0 30px #26ff00;
+            }
+            100% {
+                color: #fff;
+            }
+        }
+
+        .footer-section h2 {
+            animation: floatIn 1.2s ease-in-out, colorShift 3s infinite alternate;
+        }
+
+        .social-icons li a {
+            animation: colorShift 2s infinite alternate;
+        }
+
+
+
+#fro{
+    font-family: "Edu AU VIC WA NT Hand", cursive;
 }
 
-.header{
- min-height: 100vh;
- width: 100%;
- background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url(https://i.postimg.cc/NG35tdRH/BG-2.jpg);
- background-position: center;
- background-size: cover;
- position : relative;
+#fr{
+    font-family: "Montserrat", sans-serif;
 }
 
 
-nav{
-  display: flex;
-  padding: 2% 6%;
-  justify-content: space-between;
-  align-item: center;
-}
 
-nav img{
-  width: 150px;
-}
 
-.nav-links{
-  flex: 1;
-  text-align: right;
-}
 
-.nav-links ul li{
-  list-style: none;
-  display: inline-block;
-  padding: 8px 12px;
+
+
+
+
+
+
+
+/* Header */
+.header {
+  min-height: 65vh;
+  width: 100%;
+  background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url(https://i.postimg.cc/jSQZkbj6/54619419.jpg);
+  background-position: center;
+  background-size: cover;
   position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  
+}
+nav {
+  display: flex;
+  width: 100%;
+  padding: 20px 6%;
+  justify-content: space-between;
+  align-items: center;
+  position: absolute; /* 'fixed' থেকে 'absolute' এ পরিবর্তন করা হলো */
+  top: 0;
+  left: 0;
+  z-index: 1000;
+  background: transparent; 
+  transition: top 0.3s; /* স্ক্রল করার সময় ন্যাভ বার হাইড করতে এই ট্রানজিশন ব্যবহার হবে */
+}
+nav img {
+  width: 150px;
+  height: auto;
+ 
+  filter: drop-shadow(0 0 10px #00ff03);
+
 }
 
-.nav-links ul li a{
+.nav-links {
+  display: flex;
+  justify-content: flex-end;
+  flex: 1;
+}
+ 
+.nav-links ul {
+  display: flex;
+  list-style: none;
+  gap: 30px;
+  align-items: center;
+}
+
+.nav-links ul li a {
   color: #fff;
   text-decoration: none;
-  font-size: 13px;
+  font-size: 16px;
+  padding: 10px 20px;
+  border-radius: 5px;
+  transition: background 0.3s ease, color 0.3s ease;
+  font-family: "Montserrat", sans-serif;
 }
 
-.nav-links ul li::after{
-  content: "";
-  width: 0%;
-  height: 2px;
+.nav-links ul li a:hover {
   background: #00ff03;
-  display: block;
-  margin: auto;
-  transition: 0.5s;
+  color: #000;
 }
 
-
-.nav-links ul li:hover::after{
-  width: 100%;
-}
-
-.text-box{
-  width: 90%;
-  color: #fff;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%,-50%);
+.text-box {
   text-align: center;
-}
-
-.text-box h1{
-  font-size: 62px;
-  font-family: 'REM', sans-serif;
-}
-
-.text-box p{
-  margin: 10px 0 40px;
-  font-size: 14px;
   color: #fff;
-  font-family: 'Kanit', sans-serif;
 }
 
+.text-box h1 {
+  font-size: 54px;
+  margin-top: 20px;
+  text-transform: uppercase;
+  font-family: "Merriweather Sans", sans-serif;
+  
+}
 
-.hero-btn{
+.text-box h1:hover{
+    text-shadow: 0 0 30px #00ff03;
+    transition: 1.5s;
+}
+
+.text-box p {
+  font-size: 18px;
+  margin-bottom: 40px;
+}
+
+.hero-btn {
   display: inline-block;
   text-decoration: none;
   color: #fff;
   border: 1px solid #fff;
   padding: 12px 34px;
-  font-size: 13px;
+  font-size: 14px;
   background: transparent;
-  position: relative;
-  cursor: pointer;
+  border-radius: 30px;
+  transition: background 0.5s, color 0.5s;
+  font-family: "Montserrat", sans-serif;
 }
 
-.hero-btn:hover{
-  border: 1px solid #58f43d;
-  background: #58f43d;
-  color: black;
-  transition: 1s;
+.hero-btn:hover {
+  background: #00ff03;
+  color: #000;
+  border: none;
+  box-shadow: 0 0 30px #00ff03, 0 0 30px #00ff03;
+  transition: 1.5s;
 }
 
-.mein{
-  color: red;
-  text-align: center;
-}
-
-
-
-.mo-menu{
-  flex: 1;
-  text-align: right;
+.fa-bars, .fa-times {
   display: none;
 }
 
-.mo-menu ul li{
-  list-style: none;
-  display: inline-block;
-  padding: 8px 12px;
-  position: relative;
-}
-
-
-.mo-menu ul li a{
-  color: #fff;
-  text-decoration: none;
-  font-size: 9px;
-}
-
-
-.mo-menu ul li::after{
-  content: "";
-  width: 0%;
-  height: 2px;
-  background: #00ff03;
-  display: block;
-  margin: auto;
-  transition: 0.5s;
-}
-
-
-.mo-menu ul li:hover::after{
-  width: 100%;
-}
-
-
-
-@media(max-width: 700px){
-  	.text-box h1{
-  	  font-size: 20px;
+/* Responsive Styles */
+@media(max-width: 768px){
+  nav {
+    background: transparent; /* Initially transparent for mobile mode */
   }
   
-  .nav-links ul li{
-    display: block;
-  }
-  
-  .nav-links{
+  .nav-links ul {
+    flex-direction: column;
+    position: absolute;
+    top: 80px;
+    right: 0;
+    background: rgba(0, 0, 0, 0.9);
+    width: 100%;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
     display: none;
+    transition: 0.5s ease;
   }
-  .mo-menu{
-   display: block;
- }
-}
 
-
-
-
-
-.hotpro{
-  width: 80%;
-  margin: auto;
-  text-align: center;
-  padding-top: 100px;
-}
-
-h1{
-    font-size: 36px;
-    font-weight : 600;
-}
-
-p{
-    color: #777;
-    font-size: 14px;
-    font-weight 300;
-    line-height: 22px;
-    padding: 10px;
-}
-
-
-.row{
-    margin-top: 5%;
+  .nav-links ul.show {
     display: flex;
-    justify-content: space-between;
-}
+  }
 
-.hotpro-col{
-    flex-basis: 31%;
-    background: #fff3f3;
-    border-radius: 10px;
-    margin-bottom: 5%;
-    padding: 20px 17px;
-    box-sizing: border-box;
-    transition: 0.5s;
-}
-
-
-.hotpro-col a{
-    text-decoration: none;
-    font-size: 15px;
-    color: #080078;
-}
-h3{
-    text-align: center;
-    font-weight: 600;
-    margin: 10px 0;
-}
-
-.hotpro-col:hover{
-    box-shadow: 0 0 20px 0px rgba(0,0,0,0.2);
-}
-
-@media(max-width: 700px){
-   .row{
-       flex-direction: column;
-   }
-}
-
-.trusted{
-    padding-top: 50px;
-    padding-left: 15px;
-    padding-right: 15px;
-}
-
-.trusted h1{
-    font-size: 35px;
-    color: #045d5d;
-}
-.trusted p{
-    color: #008080;
-    font-size: 15px;
-}
-
-.tr{
-    padding-top: 20px;
-}
-.xxx{
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-}
-.tr h2{
-    text-align: center;
-    color: #2f539b;
-    font-size: 30px;
-}
-
-.tr p{
-    text-align: center;
-    color: #2b547e;
-    font-size: 17px;
-}
-
-.low{
-    padding-top: 15px;
-}
-
-.low h2{
-    text-align: center;
-    color: #2f539b;
-    font-size: 30px;
-}
-
-.low p{
-    text-align: center;
-    color: #2b547e;
-    font-size: 17px;
-}
-
-.delivery{
-    padding-top: 15px;
-}
-
-.delivery h2{
-    text-align: center;
-    color: #2f539b;
-    font-size: 30px;
-}
-
-.delivery p{
-    text-align: center;
-    color: #2b547e;
-    font-size: 17px;
-}
-
-.coustomer{
-    padding-top: 15px;
-}
-
-.coustomer h2{
-    text-align: center;
-    color: #2f539b;
-    font-size: 30px;
-}
-
-.coustomer p{
-    text-align: center;
-    color: #2b547e;
-    font-size: 17px;
-}
-
-.pay{
-    padding-top: 15px;
-}
-
-.pay h2{
-    text-align: center;
-    color: #2f539b;
-    font-size: 30px;
-}
-
-.pay p{
-    text-align: center;
-    color: #2b547e;
-    font-size: 17px;
-}
-
-
-
-.call{
-    margin: 100px auto;
-    width: 80%;
-    background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url(https://i.postimg.cc/NjpsznZm/jezael-melgoza-2-Fi-Xtdn-Vhj-Q-unsplash-1.jpg);
-    background-position: center;
-    background-size: cover;
-    border-radius: 10px;
-    text-align: center;
-    padding: 100px 0;
-}
-
-.call h1{
-    color: #fff;
-    margin: 40px;
-    padding: 0;
-}
-
-@media(max-width: 700px){
-   .call h1{
-       font-size: 24px;
-   }
-}
-
-
-.nagad{
-    padding-bottom: 100px;
-}
-
-
-.footer{
+  .nav-links ul li a {
+    font-size: 20px;
+    padding: 15px;
     width: 100%;
     text-align: center;
-    padding: 30px 0;
-    background-color: #00093c;
-}
+   
+  }
+  
+ .nav-links ul li a:hover{
+     background: #00ff03:
+     transition: 1.5s;
+     color: black;
+     box-shadow: 0 0 5px #00ff03;
+ }
 
-.footer h4{
-    margin-bottom: 25px;
-    margin-top: 20px;
-    font-weight: 600;
-    padding-top: 10px;
-    font-size: 30px;
-    color: #9bff6a;
-}
-
-.footer p{
-    font-size: 15px;
-    color: #51f390;
-}
-
-.icons i{
-    margin: 0 13px;
-    color: #00ff03;
-    cursor: pointer;
-    padding: 18px 0;
-    font-size: 40px;
-}
-
-
-
-
-.usl{
-    justify-content: space-between;
-    display: flex;
-    padding-left: 200px;
-    padding-right: 200px;
-}
-
-.uslx a{
-    text-decoration: none;
-    color: #65c2f3;
-    font-size: 15px;
-}
-
-.uslx a:hover{
-    color: #e9a2f3;
-}
-
-.copyright p{
-    padding-top: 15px;
+  .fa-bars, .fa-times {
+    display: block;
     color: #fff;
-    font-size: 18px;
+    font-size: 24px;
+    cursor: pointer;
+    position: absolute;
+    top: 20px;
+    right: 20px;
+  }
 }
 
 
 
+.scroll-down {
+            font-size: 30px;
+            color: #26ff00;
+            position: relative;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            text-shadow: 0 0 30px #26ff00;
+        }
 
+        .scroll-text {
+            margin-bottom: 20px;
+            animation: bounce 2s infinite;
+        }
 
-.errorx {
-    padding-top: 100px;
-    padding-bottom: 100px;
-}
+        .arrow {
+            border: solid #26ff00;
+            border-width: 0 4px 4px 0;
+            display: inline-block;
+            padding: 10px;
+            transform: rotate(45deg);
+            animation: bounce-arrow 2s infinite;
+            
+        }
 
+        @keyframes bounce {
+            0%, 20%, 50%, 80%, 100% {
+                transform: translateY(0);
+            }
+            40% {
+                transform: translateY(-10px);
+            }
+            60% {
+                transform: translateY(-5px);
+            }
+        }
 
-.header .text-box h2{
-    padding-top: 100px;
-    color: #00ffea;
-    font-size: 35px;
-}
+        @keyframes bounce-arrow {
+            0%, 20%, 50%, 80%, 100% {
+                transform: translateY(0) rotate(45deg);
+            }
+            40% {
+                transform: translateY(10px) rotate(45deg);
+            }
+            60% {
+                transform: translateY(5px) rotate(45deg);
+            }
+        }
+        
+        
+        
+        
+      
+       .error {
+           
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 90vh;
+            background: linear-gradient(135deg, #5e0c00, #ff1f00);
+            color: white;
+            overflow: hidden;
+        }
 
-.errorx p{
-    font-size: 100px;
-    color: red;
-    text-align: center;
-    padding-top: 50px;
-}
+        .error-container {
+            text-align: center;
+            background: rgba(255, 255, 255, 0.1);
+            padding: 50px;
+            border-radius: 20px;
+            box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+            animation: float 3s infinite ease-in-out;
+        }
 
+       .error h1 {
+            font-size: 3rem;
+            font-weight: 700;
+            margin-bottom: 20px;
+        }
 
+      .error p {
+            font-size: 1.2rem;
+            margin-bottom: 10px;
+        }
 
-@media(max-width: 700px){
-    .errorx {
-        padding-top: 50px;
-        padding-bottom: 50px;
+        .options {
+            margin: 20px 0;
+            list-style: none;
+            text-align: left;
+        }
+
+        .options li {
+            margin: 10px 0;
+        }
+
+        .buttons {
+            display: flex;
+            justify-content: center;
+            gap: 15px;
+        }
+
+        .button {
+            padding: 15px 25px;
+            background-color: #50ff00;
+            border: none;
+            border-radius: 10px;
+            color: black;
+            cursor: pointer;
+            transition: transform 0.3s;
+        }
+
+        .button:hover {
+            transform: scale(1.05);
+            box-shadow: 0 0 30px #50ff00;
+        }
+
+        .button:active {
+            transform: scale(0.98);
+        }
+
+        .icon {
+            font-size: 100px;
+            margin-bottom: 20px;
+            color: #ffcc00;
+            animation: bounce 2s infinite;
+        }
+
+        @keyframes bounce {
+            0%, 100% {
+                transform: translateY(0);
+            }
+            50% {
+                transform: translateY(-15px);
+            }
+        }
+
+        @keyframes float {
+            0% {
+                transform: translateY(0px);
+            }
+            50% {
+                transform: translateY(-20px);
+            }
+            100% {
+                transform: translateY(0px);
+            }
+        }
+
+        @media screen and (max-width: 768px) {
+            h1 {
+                font-size: 2.5rem;
+            }
+
+            .button {
+                padding: 12px 20px;
+            }
+
+            .icon {
+                font-size: 80px;
+            }
+        }
+        
+        
+        @media (max-width: 480px) {
+    nav img{
+        width: 100px;
     }
-    .errorx img{
-        height: 450px;
-        width: 450px;
-        padding: 15px;
+    .text-box h1{
+        font-size: 40px;
     }
-    .errorx p{
-        font-size: 50px;
-        padding-top: 25px;
+    
+    .text-box p{
+        font-size: 17px;
     }
+    
+    .header {
+  min-height: 40vh;
+  }
+  
+  .scroll-down {
+      font-size: 18px;
+  }
+   
 }
 
-
-
-
+@media (max-width: 768px) {
+   .header{
+       min-height: 50vh;
+   }
+}
     </style>
-    
 </head>
-
-
 <body>
-
+    
+    
+    
+    <!-- Header -->
 <section class="header">
-		<nav>
-			<a href="https://yourtopupcenter.github.io/home"><img src="https://i.postimg.cc/Pxjg6DpL/Picsart-24-01-20-22-35-57-863.png"></a>
-			  <div class="nav-links">
-			    <ul>
-			      <li><a href="https://yourtopupcenter.github.io/home">HOME</a></li>
-			      <li><a href="https://yourtopupcenter.github.io/Products">PRODUCTS</a></li>
-			      <li><a href="https://yourtopupcenter.github.io/Offers">OFFERS</a></li>
-			      <li><a href="https://yourtopupcenter.github.io/Blogs">BLOGS</a></li>
-			      <li><a href="https://yourtopupcenter.github.io/About">ABOUT</a></li>
-			      <li><a href="https://yourtopupcenter.github.io/ContacUs">CONTACT Us</a></li>
-			    </ul>
-			     
-			  </div>
-			  
-			 
-			 </div>
-			 
-
-<div class="mo-menu">
-
-<ul>
-			      <li><a href="https://yourtopupcenter.github.io/home">HOME</a></li>
-			      <li><a href="https://yourtopupcenter.github.io/Products">PRODUCTS</a></li>
-			      <li><a href="https://yourtopupcenter.github.io/Dashboard">•••</a></li>
-</ul>
-</div>
-		</nav>
-
-<div class="text-box">
-	<h1>Your TopUp Center</h1>
-	<p>Your Best Game Patner <br>Trusted, Low Price, Secure, Instant Delivery</p>
-	<a href="https://yourtopupcenter.github.io/Products" class="hero-btn">See Our Products</a>
-	
-	
-	<h2>Scroll Down</h2>
-	<h1>⇓</h1>
-
-</div>
-
-
-<div class="scrolldown">
-  
-</div>
-
-
-
-</section>
-
-<!--Hot Products!-->
-
-
-
-
-<div class="errorx">
-    
-    <p><b> ➠ ⚠ </b></p>
-
-<img src="https://i.postimg.cc/KvfjNB2W/Picsart-23-09-15-14-59-16-640.png" class="xxx" height="800px" width="700px">
-
-
-</div>
-
-
-<section class="call">
-    <h1>For Any Support,  Help,  Problem,  Report,  Investment,  Partnership, or  Advisement </h1>
-    <a href="https://yourtopupcenter.github.io/ContactUs" class="hero-btn">Contact Us</a>
-</section>
-
-
-
-
-<div class="nagad">
-  
-
-<img src="https://i.postimg.cc/yxk7V814/Picsart-23-09-08-21-30-44-449.png" alt="No image" height="150px" width="350px" class="xxx">
-
-</div>
-<section class="footer">
-    
-    <h4>About Us</h4>
-    <p>Top-up your favorite game credits at  " Your TopUp Center " ,  your trusted online digital game store. You get your game credits fast in just 5 - 10 minutes. You can order by following just a few steps. Buy safely online with Nagad, bKash, Rocket. Our  " Your TopUp Center "  platform is a safe and reliable platform.</p>
-    
-    
-        
-
-<h4>Important Links</h4>
-
-<div class="usl">
-            
-            
-            <div class="uslx">
-                
-            <a href="https://yourtopupcenter.github.io/home">Home</a>
-            <P></P>
-            <a href="https://yourtopupcenter.github.io/Products">Products</a>
-            <p></p>
-            <a href="https://yourtopupcenter.github.io/Offers">Offers</a>
-            <p></p>
-            <a href="#">FAQ</a>
-            
+    <nav id="navbar">
+        <a href="https://yourtopupcenter.github.io/home">
+            <img src="https://i.postimg.cc/Pxjg6DpL/Picsart-24-01-20-22-35-57-863.png">
+        </a>
+        <div class="nav-links">
+            <i class="fa fa-bars" id="menu-icon" onclick="toggleMenu()"></i>
+            <ul id="navMenu">
+                <li><a href="https://yourtopupcenter.github.io/home">HOME</a></li>
+                <li><a href="https://yourtopupcenter.github.io/Products">PRODUCTS</a></li>
+                <li><a href="https://yourtopupcenter.github.io/Offers">OFFER</a></li>
+                <li><a href="https://yourtopupcenter.github.io/Blogs">BLOGS</a></li>
+                <li><a href="https://yourtopupcenter.github.io/About">ABOUT</a></li>
+                <li><a href="https://yourtopupcenter.github.io/ContactUs">CONTACT US</a></li>
+            </ul>
         </div>
-        
-         
-            <div class="uslx">
-                
-            <a href="https://yourtopupcenter.github.io/Blogs">Blogs</a>
-            <p></p>
-            <a href="#">Reseller Platform</a>
-            <p></p>
-            <a href="https://yourtopupcenter.github.io/About">About Us</a>
-            <p></p>
-            <a href="https://yourtopupcenter.github.io/ContactUs">Contact Us</a>
-        </div>
-        
-        
-        </div>
-    
-    
-    
-    
-    <div class="icons">
-        <a href="https://www.facebook.com/profile.php?id=100088285495507"><i class="fa-brands fa-facebook"></a></i>
-        <a href="https://youtube.com/@kingofthekilar-1414"><i class="fa-brands fa-youtube"></a></i>
-        <a href="https://t.me/yourtopupcenter"><i class="fa-brands fa-telegram"></a></i>
-        <a href="#"><i class="fa-solid fa-user-group"></i></a>
-        <a href="https://wa.me/message/KMQOSZQOY7BXB1"><i class="fa-brands fa-whatsapp"></a></i>
-    </div> 
+    </nav>
 
-
-
-<div class="copyright">
-    
-    <p>All Rights Reserved by © FF Diamond Store BD 2022-2024 &nbsp; | &nbsp; v 1.3 </p>
+    <div class="text-box">
+        <h1>Offers</h1>
+    </div>
+    <br><br>
+      <div class="scroll-down">
+        <div class="scroll-text">Scroll Down</div>
+        <div class="arrow"></div>
     </div>
 </section>
 
-<!--main js-->
-<script src="js/main.js">
 
-   </script>
+<!-- End Of Header -->
+    
+    
+    
+    
+    
+    
+    <!-- Error -->
+    
+    
+    <section class="error">
+    <div class="error-container">
+        <div class="icon">⚠️</div>
+        <h1>Oh No! That's an Error</h1>
+        <p>Why?</p>
+        <ul class="options">
+            <li>• This page is under maintenance</li>
+            <li>• This page is no longer available</li>
+            <li>• This page is creating soon</li>
+        </ul>
+        <div class="buttons">
+            <button class="button" onclick="goBack()">Go Back</button>
+            <button class="button" onclick="goHome()">Home</button>
+            <button class="button" ><a href="https://yourtopupcenter.github.io/ContactUs" style="text-decoration: none; color: #000;">Contact Us</a></button>
+        </div>
+    </div>
+    
+    </section>
+    
+    <!-- End Of Erro -->
+    
+    
+    
+    
+    
+    
+    
+    <!-- Footer -->
+    
+    
+    
+<section class="mfooter">
+    
+    <footer class="footer">
+        <div class="company-info">
+            <img src="https://i.postimg.cc/xCB0dHGy/b295bb43-9ccd-47e2-aebd-900434a0a0fb.jpg" alt="Your TopUp Center">
+            <h1>Your TopUp Center</h1>
+        </div>
+        <div class="footer-container">
+            <div class="footer-section about-us">
+                <h2>About Us</h2>
+                <p id="fro">Top-up your favorite game credits at " Your TopUp Center " , your trusted online digital game store. You get your game credits fast in just 5 - 10 minutes. You can order by following just a few steps. Buy safely online with Nagad, bKash, Rocket. Our " Your TopUp Center " platform is a safe and reliable platform.</p>
+            </div>
+            <div class="footer-section contact-info">
+                <h2>Contact Information</h2>
+                <p>Email : <a href="mailto:ffdiamondstorebd@gmail.com" style="text-decoration: none; color: #fff;">ffdiamondstorebd@gmail.com</a></p>
+                <p>Phone : <a href="tel:+880 1781-146747" style="text-decoration: none; color: #fff;">+880 17811-46747</a></p>
+                <p>Address : <a href="https://maps.app.goo.gl/DQpiKEpmaRjnwb9U7" style="text-decoration: none; color: #fff;">Tarakandi, Sribordi, Sherpur, Mymensingh, Bangladesh</a></p>
+                <p>Support : <a href="https://t.me/YTC24_bot" style="text-decoration: none; color: #fff;">Telegram &nbsp <i class="fas fa-external-link-alt"></i></a></p>
+            </div>
+            <div class="footer-section important-links">
+                <h2>Important Links</h2>
+                <ul>
+                    <li><a href="https://yourtopupcenter.github.io/" id="fr">Home</a></li>
+                    <li><a href="https://yourtopupcenter.github.io/Products" id="fr">Products</a></li>
+                    <li><a href="https://yourtopupcenter.github.io/Offers" id="fr">Offer</a></li>
+                    <li><a href="https://yourtopupcenter.github.io/reseller" id="fr">Reseller Platform</a></li>
+                    
+                    <li><a href="https://yourtopupcenter.github.io/About" id="fr">About</a></li>
+                    <li><a href="https://yourtopupcenter.github.io/ContactUs" id="fr">Contact Us</a></li>
+                    <li><a href="https://yourtopupcenter.github.io/terms" id="fr">Terms and Conditions</a></li>
+                    <li><a href="https://yourtopupcenter.github.io/privacy" id="fr">Privacy Policies</a></li>
+                    <li><a href="https://yourtopupcenter.github.io/Dashboard" id="fr">Menu</a></li>
+                </ul>
+            </div>
+            <div class="footer-section social-media">
+                <h2>Social Media</h2>
+                <ul class="social-icons">
+                    <li><a href="https://www.facebook.com/yourtopupcenterofficial" ><i class="fab fa-facebook"></i></a></li>   
+                    <li><a href="https://wa.me/message/O5T2K7VX66VUP1"><i class="fab fa-whatsapp"></i></a></li>             
+                    <li><a href="https://www.instagram.com/yourtopupcenterofficial"><i class="fab fa-instagram"></i></a></li>
+                    <li><a href="https://x.com/yourtopupcenter"><i class="fab fa-twitter"></i></a></li>
+                    <li><a href="https://www.youtube.com/@techwithahofficial"><i class="fab fa-youtube"></i></a></li>
+                    <li><a href="https://t.me/yourtopupcenterofficial"><i class="fab fa-telegram"></i></a></li>
+                    <li><a href="https://www.tiktok.com/yourtopupcenter"><i class="fab fa-tiktok"></i></a></li>
+                    
+                    <li><a href="https://yourtopupcenter.github.io/redirect/facebook"><i class="fab fa-facebook"></i></a></li>
+                    <li><a href="https://yourtopupcenter.github.io/redirect/whatsappgroup"><i class="fab fa-whatsapp"></i></a></li>
+                    <li><a href="https://yourtopupcenter.github.io/redirect/telegram"><i class="fab fa-telegram"></i></a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p id="fro">&copy; 2022 - 2024 Your TopUp Center | All Rights Reserved | V 5 | Devloper : <a href="https://alihosenofficial.github.io" style="color: #fff;">Ali Hosen</a></p>
+        </div>
+    </footer>
+</section>
+
+
+
+<!-- End Of Footer -->
+    <script>
+        
+        
+        
+        
+        function toggleMenu() {
+    var menu = document.getElementById("navMenu");
+    var menuIcon = document.getElementById("menu-icon");
+    var navbar = document.getElementById("navbar");
+
+    menu.classList.toggle("show");
+    
+    if(menuIcon.classList.contains("fa-bars")) {
+        menuIcon.classList.remove("fa-bars");
+        menuIcon.classList.add("fa-times");
+        navbar.style.background = "rgba(0, 0, 0, 0.8)"; // Background appears when toggled
+    } else {
+        menuIcon.classList.remove("fa-times");
+        menuIcon.classList.add("fa-bars");
+        navbar.style.background = "transparent"; // Background becomes transparent again
+    }
+}
+
+        
+        
+        
+        
+        
+        
+        
+        // Add 3D floating effect to footer items
+        const footerSections = document.querySelectorAll('.footer-section h2');
+
+        footerSections.forEach(section => {
+            section.addEventListener('mouseover', () => {
+                section.style.transform = 'rotateX(15deg) rotateY(15deg)';
+            });
+
+            section.addEventListener('mouseout', () => {
+                section.style.transform = 'rotateX(0) rotateY(0)';
+            });
+        });
+        
+        
+        
+        let lastScrollTop = 0;
+window.addEventListener("scroll", function () {
+    var navbar = document.getElementById("navbar");
+    let currentScroll = window.pageYOffset || document.documentElement.scrollTop;
+    
+    if (currentScroll > lastScrollTop) {
+        // নিচের দিকে স্ক্রল করলে navbar হাইড হবে
+        navbar.style.top = "-80px"; 
+    } else {
+        // উপরের দিকে স্ক্রল করলে navbar শো হবে
+        navbar.style.top = "0"; 
+    }
+    lastScrollTop = currentScroll <= 0 ? 0 : currentScroll; // For Mobile or negative scrolling
+});
+
+
+
+function goBack() {
+            window.history.back();
+        }
+
+        function goHome() {
+            window.location.href = 'https://yourtopupcenter.github.io/home';
+        }
+    </script>
+
+
+<!-- End of Footer -->
 </body>
-
-
-</html>
+	</html>
